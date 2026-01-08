@@ -67,16 +67,16 @@ mysql -u root -p fleximart_dw < part3_data_warehouse/warehouse_schema.sql
 mysql -u root -p fleximart_dw < part3_data_warehouse/warehouse_data.sql
 mysql -u root -p fleximart_dw < part3_data_warehouse/analytics_queries.sql
 
-**MongoDB Setup (Part 2)**
+# **MongoDB Setup (Part 2)**
 mongosh < part2_nosql/mongodb_operations.js
 
-**Key Learnings**
+# **Key Learnings**
 Designed and implemented a complete ETL pipeline with data quality checks.
 Understood when NoSQL databases like MongoDB are preferable over relational models.
 Built a star schema data warehouse and wrote OLAP-style analytical queries.
 Learned how transactional data is transformed into analytical insights.
 
-**Challenges Faced**
+# **Challenges Faced**
 Schema mismatches during ETL – resolved by standardizing data types and cleaning null values.
 Foreign key alignment in data warehouse – resolved through careful dimension loading and surrogate key usage.
 GitHub structure confusion – resolved by organizing parts into clear, logical folders.
