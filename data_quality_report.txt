@@ -1,0 +1,4 @@
+Raw customer records: 26
+Duplicates removed: 1
+Records removed due to missing email: 5
+Clean customer records loaded: 20
